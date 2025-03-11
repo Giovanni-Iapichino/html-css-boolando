@@ -32,7 +32,26 @@ ul {
   padding-right: 10px;
 }
 
-.layout {
+.relative {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-ticket-bottom {
+  position: absolute;
+  bottom: 100px;
+  left: 0;
+  display: flex;
+}
+
+.container-ticket-top {
+  position: absolute;
+  top: 20px;
+  right: 0;
+}
+
+.card {
 }
 
 /* HEADER */
@@ -44,7 +63,7 @@ header {
   left: 0;
   right: 0;
   background-color: #ff6900;
-  z-index: 999;
+  z-index: 100;
 }
 
 .container-header {
@@ -74,3 +93,106 @@ header {
 }
 
 /* MAIN */
+
+.row-clothes {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 100px;
+  justify-content: space-between;
+}
+
+.col-img {
+  width: calc(33.3% - 30px);
+  margin: 15px;
+  position: relative;
+}
+
+.relative-heart:hover {
+  width: 50px;
+  height: 50px;
+  top: 20px;
+  left: 200px;
+  color: red;
+  cursor: pointer;
+}
+
+.img-container:hover .img-top {
+  display: none;
+}
+
+.img-container:hover .img-bottom {
+  display: block;
+}
+
+.img-bottom {
+  display: none;
+}
+
+.img-container:hover {
+  cursor: pointer;
+}
+
+.price {
+  color: red;
+  float: left;
+  margin-right: 6px;
+}
+
+.sale-ticket {
+  text-decoration: line-through;
+  font-weight: 400;
+}
+
+.relative-sale {
+  width: 50px;
+  height: 19px;
+  background-color: red;
+  color: white;
+  font-size: 17px;
+  text-align: center;
+}
+
+.relative-sustainability {
+  background-color: green;
+  height: 19px;
+  width: 120px;
+  left: 335px;
+  color: white;
+  font-size: 17px;
+  margin-left: 5px;
+  text-align: center;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 50px;
+}
+
+.footer-links-info h3 {
+  margin-bottom: 10px;
+}
+
+.footer-links-social h5 {
+  margin-bottom: 10px;
+}
+
+.footer-links-info a {
+  font-weight: 300;
+  font-size: 14px;
+  margin-right: 15px;
+}
+
+.footer-links-social a {
+  font-size: 21px;
+}
