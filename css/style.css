@@ -104,13 +104,21 @@ header {
   position: relative;
 }
 
+.relative-heart {
+  width: 50px;
+  height: 50px;
+  top: 20px;
+  left: 200px;
+  cursor: pointer;
+}
+
 .relative-heart:hover {
   width: 50px;
   height: 50px;
   top: 20px;
   left: 200px;
-  color: red;
   cursor: pointer;
+  color: red;
 }
 
 .img-container:hover .img-top {
