@@ -38,14 +38,14 @@ ul {
   align-items: center;
 }
 
-.container-ticket-bottom {
+.card-ticket-bottom {
   position: absolute;
   bottom: 100px;
   left: 0;
   display: flex;
 }
 
-.container-ticket-top {
+.card-ticket-top {
   position: absolute;
   top: 20px;
   right: 0;
@@ -121,11 +121,11 @@ header {
   color: red;
 }
 
-.img-container:hover .img-top {
+.img-card:hover .img-top {
   display: none;
 }
 
-.img-container:hover .img-bottom {
+.img-card:hover .img-bottom {
   display: block;
 }
 
@@ -133,7 +133,7 @@ header {
   display: none;
 }
 
-.img-container:hover {
+.img-card:hover {
   cursor: pointer;
 }
 
