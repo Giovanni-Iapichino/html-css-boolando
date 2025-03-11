@@ -31,3 +31,46 @@ ul {
   padding-left: 10px;
   padding-right: 10px;
 }
+
+.layout {
+}
+
+/* HEADER */
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #ff6900;
+  z-index: 999;
+}
+
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-links-list {
+  display: flex;
+  gap: 10px;
+  color: white;
+}
+
+.header-links {
+  padding: 40px 0;
+}
+
+.header-logo {
+  width: 150px;
+}
+
+.header-account-list {
+  display: flex;
+  gap: 10px;
+  color: white;
+}
+
+/* MAIN */
